@@ -1,0 +1,18 @@
+# redis pool config
+redis:
+  pool:
+    host: 40.73.36.181:6379
+    maxIdle: 16
+    maxActive: 0
+    idleTimeout: 300
+    wait: 1
+    maxConnLifeTime: 1
+pages:
+  - page:
+      name: chongtian
+      heartbeat: 30
+      key: redisKEYS_view_dayingezhuang_chongtian
+  - page:
+      name: chongtian1
+      heartbeat: 25
+      key: 1243123
