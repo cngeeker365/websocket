@@ -59,7 +59,7 @@ func (c *Config) Page(name string) *Page{
 
 func init() {
 	var c Config
-	Conf = c.getConf(`D:\goProjects\wserverYGZ\src\wsserver\config\conf.yaml`)
+	Conf = c.getConf(`conf.yaml`)
 }
 
 func main()  {
